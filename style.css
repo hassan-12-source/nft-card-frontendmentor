@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:wght@100..900&family=Outfit:wght@100..900&display=swap');
+body{
+    background: hsl(217, 54%, 11%);
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; 
+    width: 450px;
+}
+.container{
+    background: hsl(216, 50%, 16%);
+    padding: 20px;
+    border-radius: 15px;
+    position: relative;
+}
+.content h1{
+    color: white;
+    font-family: "Outfit", sans-serif;
+}
+.content h1:hover{
+    color: hsl(178, 100%, 50%);
+}
+.content p{
+    color: hsl(215, 51%, 70%);
+    font-family: "Outfit", sans-serif;
+}
+.content img {
+    width: 100%;
+    display: block; 
+    margin: 0 auto;
+    border-radius: 15px;
+}
+.content:hover img {
+    filter: brightness(60%) hue-rotate(356deg); 
+}
+.hover-icon img {
+    display: none;
+    width: 10%;
+}
+.content:hover .hover-icon img {
+    display: block;
+    position: absolute;
+    top: 30%;
+    left: 45%;
+    z-index: 1;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+}
+.eth-icon,
+.time-icon{
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.eth-icon p{
+    font-family: "Outfit", sans-serif;
+    color: hsl(178, 100%, 50%);
+    font-weight: 500;
+}
+.time-icon p{
+    font-family: "Outfit", sans-serif;
+    color: hsl(215, 51%, 70%);
+}
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: hsl(215, 32%, 27%);
+    margin: 20px 0;
+}
+.avatar{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.avatar img{
+    width: 25px;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+}
+.avatar p {
+    font-family: "Outfit", sans-serif;
+    color: hsl(0, 0%, 100%);
+    margin-top: 10px;
+}
+.avatar p:hover{
+    color: hsl(178, 100%, 50%);
+}
+.avatar p span {
+    color: hsl(215, 51%, 70%);
+    font-family: "Outfit", sans-serif;
+    margin-right: 8px;
+  }
